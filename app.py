@@ -8,7 +8,7 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-# CSS personalizado corregido
+# CSS personalizado para la estética del foro y ocultar elementos de Streamlit
 st.markdown("""
 <style>
     /* Ocultamos el menú superior derecho y el pie de página, pero conservamos el botón de la barra lateral */
@@ -25,8 +25,6 @@ st.markdown("""
     .forum-votes { display: flex; flex-direction: column; align-items: center; margin-right: 20px; color: #bdc3c7; font-size: 18px;}
     .forum-votes span { color: #7f8c8d; font-size: 20px; font-weight: bold; margin: 5px 0; }
     .forum-accepted { color: #27ae60; font-size: 24px; margin-top: 5px;}
-    
-    /* Cajas de alerta para lo que debes cambiar */
     .alert-cambio { background-color: #fcf3cf; border-left: 4px solid #f1c40f; padding: 10px; margin-bottom: 10px; font-size: 14px; color: #7d6608;}
 </style>
 """, unsafe_allow_html=True)
@@ -42,7 +40,7 @@ menu = st.sidebar.radio(
         "2. Gráficos Nativos Pandas", 
         "3. Gráfico Marimekko", 
         "4. Matplotlib y Subplots",
-        "5. Ejemplo 1"
+        "5. EJEMPLO PRÁCTICO: Taller 01 (Titanic)"
     ]
 )
 
