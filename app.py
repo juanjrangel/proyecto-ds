@@ -40,7 +40,7 @@ menu = st.sidebar.radio(
         "2. Gráficos Nativos Pandas", 
         "3. Gráfico Marimekko", 
         "4. Matplotlib y Subplots",
-        "5. Ejemplo"
+        "5. EJEMPLO PRÁCTICO: Taller 01 (Titanic)"
     ]
 )
 
