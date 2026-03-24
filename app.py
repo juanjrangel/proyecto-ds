@@ -40,7 +40,7 @@ menu = st.sidebar.radio(
         "2. Gráficos Nativos Pandas", 
         "3. Gráfico Marimekko", 
         "4. Matplotlib y Subplots",
-        "5. EJEMPLO PRÁCTICO: Taller 01 (Titanic)"
+        "5. Ejemplo 1"
     ]
 )
 
@@ -283,11 +283,11 @@ plt.title('Diagramas de Violín')
 plt.show()'''
     st.code(codigo_subplots, language='python')
 
-elif menu == "5. EJEMPLO PRÁCTICO: Taller 01 (Titanic)":
-    st.markdown('<div class="forum-title">Full EDA Example solving Workshop 1 (Titanic Dataset)?</div>', unsafe_allow_html=True)
+elif menu == "5. Ejemplo 1":
+    st.markdown('<div class="forum-title">Full EDA Example solving Workshop?</div>', unsafe_allow_html=True)
     st.markdown('<div class="forum-stats">Asked yesterday | Active today | Viewed 1.5k times</div>', unsafe_allow_html=True)
-    st.markdown('<div class="forum-q-text">Can someone provide the exact code sequence to perform the EDA on the Titanic dataset, including info extraction, null dropping, basic plotting, and outlier detection?</div>', unsafe_allow_html=True)
-    st.markdown('<span class="forum-tags">python</span><span class="forum-tags">eda</span><span class="forum-tags">titanic</span><span class="forum-tags">workshop-solution</span>', unsafe_allow_html=True)
+    st.markdown('<div class="forum-q-text">Can someone provide the exact code sequence to perform the EDA on the dataset, including info extraction, null dropping, basic plotting, and outlier detection?</div>', unsafe_allow_html=True)
+    st.markdown('<span class="forum-tags">python</span><span class="forum-tags">eda</span><span class="forum-tags"> </span><span class="forum-tags">workshop-solution</span>', unsafe_allow_html=True)
 
     st.markdown('<div class="forum-answer-header">1 Answer</div>', unsafe_allow_html=True)
     st.markdown("""
